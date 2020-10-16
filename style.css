@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+}
+.button {
+  position: absolute;
+}
+.navbar {
+  z-index: 1;
+}
+#color {
+  border-color: transparent;
+}
+.mainContainer {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: no-repeat url(img/bg.jpg);
+  background-position: cover;
+  overflow: hidden;
+}
+.dismiss {
+  display: none;
+}
+.flexContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  height: 400px;
+}
+
+.image2 {
+  height: 130px;
+  width: auto;
+  margin: 0 20px;
+}
+.image3 {
+  height: auto;
+  width: 100px;
+  margin: 0 20px;
+}
+.image4 {
+  height: 50px;
+}
+.prout {
+  display: none !important;
+}
+
+.bouton {
+  width: 250px;
+}
+.font {
+  color: #458e4d;
+  font-family: "Gilroy-Light";
+}
+.title {
+  color: #458e4d;
+  font-family: "Gilroy-Bold";
+}
+.nav-item {
+  color: #458e4d;
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("./assets/fonts/Gilroy-Light.otf");
+
+  font-family: "Gilroy-Bold";
+  src: url("./assets/fonts/Gilroy-ExtraBold.otf");
+}
+/*  2eme page */
+.container2 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p {
+  padding-top: 30px;
+  color: #458e4d !important;
+}
+a {
+  text-decoration: none;
+  color: #458e4d !important;
+}
