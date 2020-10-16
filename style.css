@@ -71,6 +71,14 @@ body {
   font-family: "Gilroy-Bold";
   src: url("./assets/fonts/Gilroy-ExtraBold.otf");
 }
+.boutonn {
+  color: white;
+  background-color: #458e4d;
+  border: none;
+  padding: 6px 24px;
+  border-radius: 30px;
+  font-family: "Gilroy-Light";
+}
 /*  2eme page */
 .container2 {
   position: relative;
@@ -82,6 +90,7 @@ body {
   align-items: center;
   justify-content: space-around;
 }
+
 .row {
   display: flex;
   align-items: center;
@@ -102,4 +111,23 @@ a {
 }
 .navbar-light .navbar-toggler-icon {
   background-image: url(img/burger.png) !important;
+}
+
+.colBas {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  bottom: 0;
+}
+.rowBas {
+  display: flex;
+}
+.icone {
+  height: 30px;
+  padding: 0 5px;
+}
+
+.padR {
+  padding: 0;
 }
