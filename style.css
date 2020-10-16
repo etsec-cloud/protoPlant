@@ -100,3 +100,6 @@ a {
   text-decoration: none;
   color: #458e4d !important;
 }
+.navbar-light .navbar-toggler-icon {
+  background-image: url(img/burger.png) !important;
+}
