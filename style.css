@@ -58,7 +58,8 @@ body {
 }
 .title {
   color: #458e4d;
-  font-family: "Gilroy-Bold";
+  font-weight: bold;
+  font-family: "Gilroy-Light";
 }
 .nav-item {
   color: #458e4d;
